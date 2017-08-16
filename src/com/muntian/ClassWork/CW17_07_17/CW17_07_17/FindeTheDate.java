@@ -1,4 +1,4 @@
-package com.muntian.ClassWork_19_07_17;
+package com.muntian.ClassWork.CW17_07_17.CW17_07_17;
 
 import java.util.Scanner;
 
@@ -23,7 +23,6 @@ public class FindeTheDate {
         int[] yesterday = new int[3];
         int[] tomorrow = new int[3];
         askUserForData(date);
-        System.out.println(sizeOfMonth);
         System.out.println("You entered this date:");
         System.out.println(dateToString(date));
         System.out.println();
@@ -39,8 +38,8 @@ public class FindeTheDate {
     }
 
     public static String dateToString(int[] date) {
-        String n = "-1";
-        String m = "-1";
+        String n;
+        String m;
         if (date[DAY] < 10) {
             n = "0" + Integer.toString(date[DAY]);
         } else {
