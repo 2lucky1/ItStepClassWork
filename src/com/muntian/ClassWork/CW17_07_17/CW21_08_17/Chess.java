@@ -16,12 +16,12 @@ public class Chess {
     private static void selectChessFigure() {
         System.out.println("Please, enter the number according your figure");
         System.out.println("Rook              1");
-        System.out.println("Elephant          1");
-        System.out.println("King              1");
-        System.out.println("Queen             1");
-        System.out.println("White pawn        1");
-        System.out.println("Black pawn        1");
-        System.out.println("Horse             1");
+        System.out.println("Elephant          2");
+        System.out.println("King              3");
+        System.out.println("Queen             4");
+        System.out.println("White pawn        5");
+        System.out.println("Black pawn        6");
+        System.out.println("Horse             7");
         Scanner input = new Scanner(System.in);
         switch (input.nextInt()) {
             case 1:
@@ -41,8 +41,9 @@ public class Chess {
 
     private static boolean[][] areaOfVisibility(int[] coordinatesOfFigure) {
         for (int i = 0; i < 2; i++) {
-            for (int j = 0; j < 8; j++) {
-                boolean[i][j] = true;
+                for (int j = 0; j < 8; j++) {
+                boolean[i][j] =true;
+                }
             }
         }
     }
