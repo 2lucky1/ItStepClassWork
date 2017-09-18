@@ -20,7 +20,7 @@ public class Main {
     }
 
     private static boolean compareWorkersBySalary(Worker worker1, Worker worker2) {
-        return worker1.countSalary() > worker2.countSalary();
+        return worker1.countSalary() < worker2.countSalary();
     }
 
     public static Worker[] sortWorkersBySalary(Worker[] workers) {
