@@ -1,4 +1,4 @@
-package com.muntian.ClassWork.CW17_07_17.CW18_09_17;
+package com.muntian.ClassWork.CW17_07_17.SortWorkersBySalary;
 
 public abstract class Worker {
     private static int count = 1;
@@ -6,7 +6,7 @@ public abstract class Worker {
     private int iD;
     private double rate;
 
-    public Worker(String name, double rate) {
+    Worker(String name, double rate) {
         this.name = name;
         this.iD = count++;
         this.rate = rate;
