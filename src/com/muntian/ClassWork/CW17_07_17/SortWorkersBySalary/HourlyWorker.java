@@ -1,4 +1,4 @@
-package com.muntian.ClassWork.CW17_07_17.CW18_09_17;
+package com.muntian.ClassWork.CW17_07_17.SortWorkersBySalary;
 
 public class HourlyWorker extends Worker {
 
