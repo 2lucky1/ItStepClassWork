@@ -8,6 +8,7 @@ CREATE TABLE passports(
     last_name VARCHAR(32) NOT NULL,
     PRIMARY KEY (id)
 );
+//
 
 CREATE TABLE students(
     id INT NOT NULL AUTO_INCREMENT,
